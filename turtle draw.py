@@ -1,0 +1,11 @@
+import turtle
+a=input('笔的粗细是：')
+b=input('背景颜色是：')
+c=input('笔的颜色是：')
+t=turtle.Pen()
+t.pensize(a)
+turtle.bgcolor(b)
+t.pencolor(c)
+t.speed(0)
+turtle.onscreenclick(t.setpos)
+turtle.done()
